@@ -11,7 +11,7 @@ const perguntas = [
             {
                 
                 texto: "sim, é utilizado para representar as distâncias entre planetas e estrelas",
-                afirmacao: "sim, é utilizado para representar as distâncias entre planetas e estrelas. ",
+                afirmacao: "sim, é utilizado para representar as distâncias entre planetas e estrelas ",
             },
             {
                 
@@ -60,7 +60,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
+let historiaFinal = "depois dessas perguntas você coneguiu enchergar a importancia da notação cientifica para a ciência e a evolução do entendimento sobre a galaxia ";
 
 function mostraPergunta() {
     if (atual >= perguntas.length) {
@@ -90,7 +90,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "2024";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
